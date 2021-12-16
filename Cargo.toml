@@ -1,0 +1,16 @@
+[package]
+name = "mdbx-speedy"
+version = "0.1.1"
+license = "MPL-2.0"
+readme = "README.md"
+edition = "2021"
+description = "mdbx + speedy"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.10"
+syn = "1.0.82"
+
+
